@@ -6,7 +6,7 @@ export default class LevelSelection extends Component {
         return (
             <Modal 
                 onRequestClose={this.props.onCancel}
-                visible={this.props.visible}
+                visible={this.props.isVisible}
                 animationType='slide'
                 transparent={true}
             >
